@@ -1,0 +1,48 @@
+.h1c {
+    font-family: "Quintessential", serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.h2c {
+    font-family: "Quintessential", serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.h1c,
+.h2c {
+    margin-bottom: 10px;
+}
+
+.fp {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.youtube img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-size: 16px;
+}
