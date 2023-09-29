@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/common/about/about.component';
 import { HomeComponent } from './components/common/home/home.component';
 import { RegisterComponent } from './components/common/register/register.component';
-
+// Test commit
 const routes: Routes = [
   {
     path: '',
