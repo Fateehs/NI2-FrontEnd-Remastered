@@ -7,22 +7,21 @@ import { HeaderComponent } from './components/common/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './components/common/about/about.component';
 import { HomeComponent } from './components/common/home/home.component';
-
-
+import { MatButtonModule } from '@angular/material/button';
+import { LoginModule } from './components/login/login.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    AboutComponent,
-    HomeComponent,
-  ],
+  declarations: [AppComponent, HeaderComponent, AboutComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatButtonModule,
+    LoginModule,
+    HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
